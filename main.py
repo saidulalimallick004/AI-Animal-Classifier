@@ -5,7 +5,7 @@ from PIL import Image
 from tensorflow.keras.preprocessing import image 
 
 
-model=tf.keras.models.load_model('Model/cat&dogClassifier.h5')
+model=tf.keras.models.load_model('model.h5')
 
 st.title("Cat Dog Classifier ")
 
